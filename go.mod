@@ -1,3 +1,3 @@
-module sample
+module booking-app
 
 go 1.20
