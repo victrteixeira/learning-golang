@@ -7,7 +7,7 @@ import (
 	"time"
 )
 
-const conferenceTickets int = 50
+const conferenceTickets int = 51
 
 var conferenceName = "Go Conference"
 var remainingTickets uint = 50
