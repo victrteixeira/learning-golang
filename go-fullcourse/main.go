@@ -6,9 +6,6 @@ import (
 )
 
 func main() {
-	fmt.Print("Accessing OneReturn private function\n\n")
-	res := exercises.AccessingOneReturn()
-	fmt.Printf("%v\n", res)
-
-	fmt.Print("Done\n\n")
+	res := exercises.Array_Example1()
+	fmt.Print(res)
 }
