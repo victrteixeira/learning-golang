@@ -1,4 +1,4 @@
-package printandvar
+package exercises
 
 import "fmt"
 
