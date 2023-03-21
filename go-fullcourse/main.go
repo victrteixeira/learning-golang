@@ -6,21 +6,9 @@ import (
 )
 
 func main() {
-	//res := exercises.Slice_Declaration()
+	//res := exercises.Map_Declaration()
 	//fmt.Print(res)
 
-	//res2 := exercises.Slice_SliceByRange()
-	//fmt.Print(res2)
-
-	//res3 := exercises.Slice_BuiltInMakeFunction()
-	//fmt.Print(res3)
-
-	//res4 := exercises.Slice_AppendToSlice()
-	//fmt.Print(res4)
-
-	//res5 := exercises.Slice_AppendSliceToSlice()
-	//fmt.Print(res5)
-
-	res6 := exercises.Slice_PoppingElementsOffSlice()
-	fmt.Print(res6)
+	res2 := exercises.Map_Manipulation()
+	fmt.Print(res2)
 }
