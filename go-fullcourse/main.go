@@ -1,14 +1,14 @@
 package main
 
 import (
-	"fmt"
+	//"fmt"
 	"full-course/exercises"
 )
 
 func main() {
-	//res := exercises.Map_Declaration()
+	//res := exercises.Struct_Declaration()
 	//fmt.Print(res)
 
-	res2 := exercises.Map_Manipulation()
-	fmt.Print(res2)
+	//resNumber, resString, resSlice := 
+	exercises.Struct_Manipulating()
 }
