@@ -95,3 +95,14 @@ func Struct_Tags() {
 	field, _ := t.FieldByName("Name")
 	fmt.Println(field.Tag)
 }
+
+func Struct_FunctionWithAnonymousStruct() struct {
+	Company string
+	Phone string
+} {
+	// Any further code goes here.
+	return struct {
+		Company string
+		Phone string
+	} { Company: "Xiaomi", Phone: "Redmi Note 8"}
+}

@@ -1,7 +1,7 @@
 package main
 
 import (
-	//"fmt"
+	"fmt"
 	"full-course/exercises"
 )
 
@@ -14,5 +14,8 @@ func main() {
 
 	//exercises.Struct_Composition()
 
-	exercises.Struct_Tags()
+	//exercises.Struct_Tags()
+	fmt.Printf("This is the entire struct: %v\n", exercises.Struct_FunctionWithAnonymousStruct())
+	fmt.Printf("This is only the company field: %v\n", exercises.Struct_FunctionWithAnonymousStruct().Company)
+	fmt.Printf("This is only the phone field: %v\n", exercises.Struct_FunctionWithAnonymousStruct().Phone)
 }
