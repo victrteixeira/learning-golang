@@ -12,5 +12,7 @@ func main() {
 	//resNumber, resString, resSlice := exercises.Struct_Manipulating()
 	//fmt.Printf("Number: %v,\nString: %v,\nSlice: %v\n", resNumber, resString, resSlice)
 
-	exercises.Struct_Composition()
+	//exercises.Struct_Composition()
+
+	exercises.Struct_Tags()
 }
