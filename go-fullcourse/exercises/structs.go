@@ -48,3 +48,34 @@ func Struct_Manipulating() (int, string, []string){
 
 	return aDoctor.number, aDoctor.actorName, aDoctor.companions
 }
+
+func Struct_Composition() {
+	type Animal struct {
+		Name string
+		Origin string
+	}
+
+	type Bird struct {
+		Animal
+		SpeedKPH float32
+		CanFly bool
+	}
+
+	b := Bird{}
+	b.Name = "Emu"
+	b.Origin = "Australia"
+	b.SpeedKPH = 48
+	b.CanFly = false
+	
+	// or
+
+	c := Bird{
+		Animal: Animal{Name: "Emu", Origin: "Australia"},
+		SpeedKPH: 30,
+		CanFly: false,
+	}
+
+	fmt.Println(b)
+	fmt.Println()
+	fmt.Println(c)
+}

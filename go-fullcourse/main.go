@@ -8,7 +8,9 @@ import (
 func main() {
 	//res := exercises.Struct_Declaration()
 	//fmt.Print(res)
+	
+	//resNumber, resString, resSlice := exercises.Struct_Manipulating()
+	//fmt.Printf("Number: %v,\nString: %v,\nSlice: %v\n", resNumber, resString, resSlice)
 
-	//resNumber, resString, resSlice := 
-	exercises.Struct_Manipulating()
+	exercises.Struct_Composition()
 }
