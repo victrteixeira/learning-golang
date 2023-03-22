@@ -66,7 +66,7 @@ func Struct_Composition() {
 	b.Origin = "Australia"
 	b.SpeedKPH = 48
 	b.CanFly = false
-	
+
 	// or
 
 	c := Bird{
@@ -78,4 +78,6 @@ func Struct_Composition() {
 	fmt.Println(b)
 	fmt.Println()
 	fmt.Println(c)
+
+	// Composition it's like if inheritance was possible here. The actual Bird isn't inheriting from Animal struct, but as if it was.
 }
