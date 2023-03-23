@@ -1,14 +1,10 @@
 package main
 
 import (
-	"full-course/exercises"
+	"full-course/end"
 )
 
 func main() {
-	//exercises.Loop_SimpleDeclaration()
-	//exercises.Loop_CreatingLogic()
-	//exercises.Loop_ShortDeclaration()
-	//exercises.Loop_InfiniteLoops()
-	//exercises.Loop_NestedLoopAndHowToBreakIt()
-	exercises.Loop_Collections()
+	//end.Defer_Concept()
+	end.Defer_RealExample()
 }
