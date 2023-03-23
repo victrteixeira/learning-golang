@@ -5,6 +5,8 @@ import (
 )
 
 func main() {
-	//end.Defer_Concept()
-	end.Defer_RealExample()
+	//end.Panic_Concept()
+	//end.Panic_SimpleSyntaxExample()
+	//end.Panic_RealExample()
+	end.Panic_WithDefer()
 }
