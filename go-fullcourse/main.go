@@ -5,5 +5,6 @@ import (
 )
 
 func main() {
-	end.Pointers_Concept()
+	//end.Pointers_Concept()
+	end.Pointers_WithStructs()
 }

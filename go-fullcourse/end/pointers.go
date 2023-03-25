@@ -17,3 +17,24 @@ func Pointers_Concept(){
 	*b = 14
 	fmt.Println(a, *b) // The opposite is true as well. When a dereferenced pointer change his value, the 'primary' variable will change too.
 }
+
+func Pointers_WithStructs(){
+	var ms *myStruct
+	//ms = &myStruct{foo: 42} // It's possible to do the same thing with the built-in "new" function.
+	ms = new(myStruct) // On this approach it isn't possible to have initialization syntax as above.
+
+	(*ms).foo = 42 // This is the standard syntax to initalize this struct, it'll be necessary to use the parentheses to derefence the pointers.
+	fmt.Println((*ms).foo)
+
+	// However, Go compiler has a syntax sugar to make this more simple. The example below runs the same way as the above, but now with less verbose syntax.
+
+	var mp *myStruct
+	mp = new(myStruct)
+	mp.foo = 44
+
+	fmt.Println(mp.foo)
+}
+
+type myStruct struct {
+	foo int
+}
