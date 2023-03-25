@@ -35,6 +35,17 @@ func Pointers_WithStructs(){
 	fmt.Println(mp.foo)
 }
 
+func Pointers_VariablesAssignOneToAnother(){
+	a := []int { 1, 2 , 3}
+	b := a
+	fmt.Println(a, b)
+	
+	a[1] = 42
+	fmt.Println(a, b)
+
+	// Slices and maps have underlying pointers inside them. Because of it, when a copy is done into another variable, and that copy is a copy of a map or slice, the values will be changed in all copies.
+}
+
 type myStruct struct {
 	foo int
 }
