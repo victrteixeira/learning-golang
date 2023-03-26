@@ -1,11 +1,16 @@
 package main
 
 import (
-	"full-course/end"
+	"go-fullcourse/end"
 )
 
 func main() {
-	//end.Pointers_Concept()
-	//end.Pointers_WithStructs()
-	end.Pointers_VariablesAssignOneToAnother()
+	//end.Functions_Pointers()
+	//end.Functions_VariadicParameters()
+	//end.Functions_ReturnAsPointer()
+	//end.Functions_NamedReturnValues()
+	//end.Functions_MultipleReturnsAndError()
+	//end.Functions_AnonymousFunctions()
+	//end.Functions_AnonFuncRealExample()
+	end.Functions_Methods()
 }
