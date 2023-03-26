@@ -5,7 +5,7 @@ import (
 )
 
 func main() {
-	//advanced.Interfaces_Concept()
-	//advanced.Interfaces_WithPrimitiveTypes()
-	advanced.Interfaces_EmbeddedInterfaces()
+	//advanced.GoRoutines_Concept()
+	//advanced.GoRoutines_SynchronizingRoutines()
+	advanced.GoRoutines_MAXPROCS()
 }
