@@ -5,7 +5,7 @@ import (
 )
 
 func main() {
-	//advanced.GoRoutines_Concept()
-	//advanced.GoRoutines_SynchronizingRoutines()
-	advanced.GoRoutines_MAXPROCS()
+	//advanced.Channels_Concept()
+	//advanced.Channels_ReceiveAndSendingDataOnly()
+	advanced.Channels_SelectStatements()
 }
